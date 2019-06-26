@@ -21,6 +21,14 @@ class ViewController: UIViewController {
     }
     
     
+    func observableTest() {
+        
+        let item = Observable.just([1, 2, 3])
+        item
+        
+        
+    }
+    
     func testingSubject() {
         let subject = PublishSubject<Int>()
 
